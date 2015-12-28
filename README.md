@@ -7,3 +7,12 @@ About Packagist
 ---------------
 
 Packagist is the main Composer repository. It aggregates public PHP packages installable with Composer.
+
+Usage
+-----
+
+Clone repo:
+
+    $ git clone <repo> <project_name>
+
+Starting writing your PHP package.
