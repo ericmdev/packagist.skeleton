@@ -8,6 +8,8 @@
  */
 namespace MyVendorName\MyPackageName;
 
+use InvalidArgumentException;
+
 /**
  * MyClass: Example class.
  *
@@ -15,4 +17,18 @@ namespace MyVendorName\MyPackageName;
  */
 class MyClass implements MyClassInterface
 {
+    /**
+     * @access protected
+     * @var    array
+     */
+    protected $_config;
+
+    /**
+     * Constructor.
+     *
+     */
+    public function __construct(array $config)
+    { 
+        $this->_config = $config;
+    }
 }
