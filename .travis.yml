@@ -11,6 +11,7 @@ after_script:
 
 before_install:
   - composer self-update
+  - cd project
 
 install:
   - composer install
