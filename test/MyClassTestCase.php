@@ -15,11 +15,18 @@ namespace MyVendorName\MyPackageNameTest;
 abstract class MyClassTestCase
 extends \PHPUnit_Framework_TestCase
 {
+    public function provider()
+    {
+        return [
+            [array('opt-1' => 'Some data')]
+        ];
+    }
+
     public function setUp()
     {
         // ...
     }
-    
+
     public function tearDown()
     { 
         // ...
