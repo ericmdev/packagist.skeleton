@@ -1,5 +1,5 @@
-Packagist: Skeleton
-===================
+PHP: Package
+============
 
 Skeleton for a PHP package ready to publish to [Packagist](https://packagist.org/).
 
@@ -10,4 +10,5 @@ Clone repo:
 
     $ git clone <repo> <project_name>
 
-Starting writing your PHP package.
+Start writing your package.
+
