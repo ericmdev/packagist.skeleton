@@ -13,4 +13,24 @@ use MyVendorName\MyPackageName\MyClass;
 class MyClass_UnitTest
 extends MyClassTestCase
 {
+    /**
+     * @group        specification
+     * @dataProvider provider
+     */
+    public function testSomething($data)
+    {
+        $myClass = new MyClass($data);
+        $this->assertInstanceOf('MyVendorName\\MyPackageName\\MyClass', $myClass); 
+    }
+
+    /**
+     * @group        regresssion
+     * @dataProvider provider
+     */
+    public function testSomethingElse($data)
+    {
+        $myClass = new MyClass($data);
+        $this->assertSame(true, true);
+    }
+
 }
