@@ -1,7 +1,7 @@
 PHP: Package
 ============
 
-Skeleton for a PHP package ready to publish to [Packagist](https://packagist.org/).
+Skeleton for a PHP package easily published to [Packagist](https://packagist.org/).
 
 Usage
 -----
