@@ -1,5 +1,4 @@
-PHP: Package Skeleton
-=====================
+## PHP: Package Skeleton
 
 [![Build Status](https://travis-ci.org/rocketphp/html.svg?branch=master)](https://travis-ci.org/ericmdev/php.package.svg)
 [![Coverage Status](https://coveralls.io/repos/ericmdev/php.package/badge.svg?branch=develop&service=github)](https://coveralls.io/github/ericmdev/php.package?branch=develop)
@@ -9,8 +8,7 @@ PHP package project skeleton.
 
 Remember to publish to your package to [Packagist](https://packagist.org/).
 
-Usage
------
+### Usage
 
 Clone repo:
 
@@ -18,8 +16,7 @@ Clone repo:
 
 Start writing your package.
 
-Example
--------
+### Example
 
 Example package usage in `./example/index.php`:
 
@@ -31,8 +28,7 @@ Example package usage in `./example/index.php`:
     # myTraitMethod (int): 300
     # myFinalMethod (bool): 1
 
-Development
------------
+### Development
 
 Run `composer update` as required.
 
