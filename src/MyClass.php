@@ -31,4 +31,19 @@ class MyClass implements MyClassInterface
     { 
         $this->_config = $config;
     }
+
+    /**
+     * My Method.
+     *
+     */
+    public function myMethod($var)
+    { 
+        if(!is_string($var))
+            throw new InvalidArgumentException(
+                "Expected string ...", 
+                1
+            );
+        else
+            echo "myMethod (str): $var\n";
+    }
 }
