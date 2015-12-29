@@ -3,15 +3,14 @@ language: php
 
 script:
   - phpunit
-  - mkdir -p build/logs
-  - phpunit --coverage-clover build/logs/clover.xml
+  - mkdir logs
+  - phpunit --coverage-clover logs/clover.xml
 
 after_script:
   - php vendor/bin/coveralls -v
 
 before_install:
   - composer self-update
-  - cd project
 
 install:
   - composer install
