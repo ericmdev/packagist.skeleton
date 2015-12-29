@@ -28,3 +28,12 @@ Example package usage in `./example/index.php`:
     # myMethod (str): Hello, World!
     # myTraitMethod (int): 300
     # myFinalMethod (bool): 1
+
+Development
+-----------
+
+Run `composer update` as required.
+
+PHPUnit tests are configured in `./phpunit.xml`:
+
+    $ phpunit
