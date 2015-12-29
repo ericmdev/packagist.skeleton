@@ -1,0 +1,48 @@
+{
+    "name": "user/repo",
+    "description": "A short description.",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email":  "dev@example.io",
+            "homepage":  "http://www.example.io",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "keywords": [
+        "rocketphp",
+        "html"
+    ],
+    "homepage": "https://github.com/user/repo",
+    "autoload": {
+        "psr-4": {
+            "MyVendorName\\MyPackageName\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MyVendorName\\MyPackageNameTest\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "~4.0",
+        "phpdocumentor/phpdocumentor": "2.*",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "suggest": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev",
+            "dev-develop": "1.1-dev"
+        }
+    }
+}
