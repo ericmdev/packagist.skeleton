@@ -15,4 +15,19 @@ namespace MyVendorName\MyPackageName;
  */
 trait MyTrait
 {
+    /**
+     * My Trait Method.
+     *
+     * @return str
+     */
+    public function myTraitMethod($var) 
+    {
+        if(!is_int($var))
+            throw new InvalidArgumentException(
+                "Expected int ...", 
+                1
+            );
+        else
+            echo "myTraitMethod (int): $var\n";
+    }
 }
