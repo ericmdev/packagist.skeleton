@@ -14,5 +14,5 @@ namespace MyVendorName\MyPackageName;
 interface MyClassInterface
 {
     public function myMethod($var);
-    public function myFinalMethod($var);
+    public static function myFinalMethod($var);
 }
