@@ -33,4 +33,14 @@ extends MyClassTestCase
         $this->assertSame(true, true);
     }
 
+    /**
+     * @dataProvider             provider
+     * @expectedException        InvalidArgumentException
+     * @expectedExceptionMessage Expected string
+     */
+    public function testSomeException($data)
+    {  
+        $myClass = new MyClass($data);
+        $myClass->myMethod(1);
+    }
 }
