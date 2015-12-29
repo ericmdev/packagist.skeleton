@@ -8,6 +8,7 @@
  */
 namespace MyVendorName\MyPackageName;
 
+use MyVendorName\MyPackageName\MyTrait;
 use InvalidArgumentException;
 
 /**
@@ -17,6 +18,8 @@ use InvalidArgumentException;
  */
 class MyClass implements MyClassInterface
 {
+    use MyTrait; 
+    
     /**
      * @access protected
      * @var    array
