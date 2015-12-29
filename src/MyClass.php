@@ -19,6 +19,8 @@ use InvalidArgumentException;
 class MyClass implements MyClassInterface
 {
     use MyTrait; 
+
+    const MYCONST = 'EXAMPLE';
     
     /**
      * @access protected
