@@ -10,4 +10,4 @@ Clone repo:
 
     $ git clone <repo> <project_name>
 
-Starting writing your PHP package.
+Happy package writing.
