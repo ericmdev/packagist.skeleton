@@ -46,4 +46,19 @@ class MyClass implements MyClassInterface
         else
             echo "myMethod (str): $var\n";
     }
+
+    /**
+     * My Final Method.
+     *
+     */
+    final public static function myFinalMethod($var)
+    {
+        if(!is_bool($var))
+            throw new InvalidArgumentException(
+                "Expected bool ...", 
+                1
+            );
+        else
+            echo "myFinalMethod (bool): $var\n";
+    }
 }
