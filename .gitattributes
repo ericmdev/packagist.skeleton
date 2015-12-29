@@ -1,0 +1,14 @@
+* text=auto
+
+# Source code.
+*.php text
+
+# Git config.
+.gitattributes text
+.gitignore text
+.gitconfig text
+
+# Documentation.
+*.md text
+LICENSE text
+AUTHORS text
